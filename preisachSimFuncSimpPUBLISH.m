@@ -118,8 +118,8 @@ u = block.InputPort(1).Data;  % Get current input value
                      s = 0;    %%% reset flag
                 end
       
-        [~,maxIndx] = nanmax(uSeg);
-        [~,minIndx] = nanmin(uSeg);      
+        [~,maxIndx] = max(uSeg,[],'omitnan');
+        [~,minIndx] = min(uSeg,[],'omitnan');   
        
         % if passed a minimum turning point and ascending
         if  minIndx<lenUseg && s==1 
