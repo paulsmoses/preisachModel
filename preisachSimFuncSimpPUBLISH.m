@@ -170,7 +170,8 @@ u = block.InputPort(1).Data;  % Get current input value
                           -Fab(MkBuff(1:lastMkIndx),mkBuff(2:lastmkIndx),x),2);
                 
   
-                B = -Fab(inf,-inf,x) + 2.*sumF + 0.05*sign(u)*log(2000*abs(u)+1);
+                % B = -Fab(inf,-inf,x) + 2.*sumF + 0.05*sign(u)*log(2000*abs(u)+1);
+                B = -Fab(inf,-inf,x) + 2.*sumF;
 
         
         % Update memory buffers

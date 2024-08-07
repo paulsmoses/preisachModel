@@ -13,6 +13,8 @@ giving you credit for the changes.
 
 In the meantime, you can get started by cloning the repository or downloading it to your computer, and run the example simulink file in hysteresisBlock.mdl.
 This file calls the preisachSimFuncSimpPUBLISH.m which contains the numerical implementation of the Preisach hysteresis mathematical formulation as defined in
+chirpPreisach.mdl is also available which shows an increasing frequency input to the B(H) curve.
+
 
 I. D. Mayergoyz, Mathematical models of hysteresis and their applications, 1st ed. Amsterdam ; Boston: Elsevier, 2003.
 
