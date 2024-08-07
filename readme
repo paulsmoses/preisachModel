@@ -5,10 +5,11 @@ the source code which was only available in my paper, published much later than 
   P. Moses, “A New Object-Oriented Simulation Tool for Modeling Preisach-Based Magnetic Hysteresis
   Nonlinearities”, WSEAS Transactions on Systems, vol. 17, 2018.
 
-I had wanted to use it for transformer modeling, at had some
-success, but abandoned it, in favour of exploring three-phase transformer modeling.  Here it is, for anyone who wants to use it or improve it.  I would only ask that if 
-you do, I can incorporate your improvements in this Github repository if you use the Git version control system.  I'd recommend creating a fork of this repository, make
-your improvements and I'll merge them in.
+I had wanted to use it for transformer modeling, and had some success, but abandoned it, in favour of exploring three-phase transformer modeling. 
+Here it is, for anyone who wants to use it or improve it.  I would only ask that if you do, I can incorporate your 
+improvements in this Github repository if you use the Git version control system.  I'd recommend creating a fork of this repository, make
+your improvements and I'll merge them in.   Less preferred, but possible, is if you can email me your changes and I'll update the repository
+giving you credit for the changes.
 
 In the meantime, you can get started by cloning the repository or downloading it to your computer, and run the example simulink file in hysteresisBlock.mdl.
 This file calls the preisachSimFuncSimpPUBLISH.m which contains the numerical implementation of the Preisach hysteresis mathematical formulation as defined in
