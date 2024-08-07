@@ -1,0 +1,27 @@
+I request that publications derived from the use of this code, or the
+included data files, explicitly acknowledge that fact by citing the
+appropriate paper(s) and the software itself.
+
+### Papers
+
+All publications derived from the use of code stored on git@github.com:paulsmoses/preisachModel.git,https://github.com/paulsmoses/preisachModel.git, developed by Dr. Paul Moses, as well asthe included data files, should cite the following papers
+
+  P. Moses, “A New Object-Oriented Simulation Tool for Modeling Preisach-Based Magnetic Hysteresis
+  Nonlinearities”, WSEAS Transactions on Systems, vol. 17, 2018.
+
+I also recommend referencing the following seminal papers that support this code development:
+
+The research scientist who thought up this amazing mathematical formulation, Ferenc Presiac, who perished in the horrors of the holocaust of WW II, should be given the most meaningful recognition by citing his paper:
+
+F. Preisach, "Uber die magnetishe
+nachwerikung," Zeitschrift fur Physik,
+vol. B 94, pp. 277-302, 1935.    
+
+Dr. Lamba, who provided a simple formulation of the first-order reversal curves that are used in this code as the basis of defining the hysteresis nonlinearity:
+
+H. Lamba and et al., "The effect of circuit parameters on ferroresonant solutions in an LCR circuit," Journal of
+Physics A: Mathematical and General, vol. 31, p. 7065, 1998. 
+
+Dr. Mayergoyz, who wrote a very illuminating textbook that delved into the implementation and characteristics of Preisach's model:
+
+I. D. Mayergoyz, Mathematical models of hysteresis and their applications, 1st ed. Amsterdam ; Boston: Elsevier, 2003.
